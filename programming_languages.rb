@@ -7,7 +7,7 @@ def reformat_languages(languages)
     end
   end
 
-  # new_hash.each do |ke|
+  # new_hash.each do |ke, va|
   #   new_hash[ke][:style] = []
   # end
 
