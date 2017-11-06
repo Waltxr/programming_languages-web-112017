@@ -11,7 +11,7 @@ def reformat_languages(languages)
     new_hash[ke][:style] = []
   end
 
-  language.each do |key, value|
+  languages.each do |key, value|
     i = 0
     while i < languages[key].keys.length
       new_hash[languages[key].keys[i]][:style] << key
