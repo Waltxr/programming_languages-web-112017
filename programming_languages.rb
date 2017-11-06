@@ -7,9 +7,14 @@ def reformat_languages(languages)
     end
   end
 
+  keys_array = []
   new_hash.each do |key, value|
-    matches = langues.values
-    if languages.keys.include?(key)
+    languages.each_key |lang_key| do
+      if languages[lang_key].include?(key)
+        keys_array << lang_key
+      end
+      key[:style]=keys_array
+    end
 
   return new_hash
 end
