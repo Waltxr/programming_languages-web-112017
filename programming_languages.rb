@@ -10,8 +10,5 @@ def reformat_languages(languages)
   new_hash.each do |ke|
     new_hash[ke][:style] = []
   end
-    i = 0
-    while i < new_hash.keys.length
-       
-  end
+  
 end
