@@ -10,4 +10,5 @@ def reformat_languages(languages)
   new_hash.each do |ke, va|
     ke[:style] = []
   end
+  return new_hash
 end
