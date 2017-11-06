@@ -1,3 +1,7 @@
 def reformat_languages(languages)
-  # your code here
+  new_hash = {}
+
+  languages.map do |key, value|  
+    new_hash[key][value]
+  end
 end
