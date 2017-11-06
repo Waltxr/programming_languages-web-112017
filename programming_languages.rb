@@ -15,9 +15,9 @@ def reformat_languages(languages)
     i = 0
     while i < languages[key].keys.length
       new_hash[languages[key].keys[i]][:style] << key
-      i +=1
+      i += 1
     end
-      
+
   end
   return new_hash
 end
