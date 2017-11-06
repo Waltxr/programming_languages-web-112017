@@ -6,7 +6,7 @@ def reformat_languages(languages)
   end
 
   new_hash.map do |key, value|
-    new_hash[key]=languages.each_char { |key|  }
+    new_hash[key]=languages.each_key { |key|  }
   end
 
   return new_hash
