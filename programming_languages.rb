@@ -6,5 +6,5 @@ def reformat_languages(languages)
       new_hash[k] = value
     end
   end
-
+  return new_hash
 end
