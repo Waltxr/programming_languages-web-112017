@@ -7,5 +7,8 @@ def reformat_languages(languages)
     end
   end
 
-  return new_hash
+  new_hash.each do |key, value|
+    if languages.keys.include?(key)
+      
+  # return new_hash
 end
