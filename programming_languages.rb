@@ -13,7 +13,7 @@ def reformat_languages(languages)
       if languages[lang_key].include?(key)
         keys_array << lang_key
       end
-      key[:style]=keys_array
+      new_hash[:style]=keys_array
     end
   end
   return new_hash
