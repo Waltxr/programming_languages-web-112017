@@ -11,8 +11,4 @@ def reformat_languages(languages)
     new_hash[ke][:style] = []
   end
 
-  languages.each do |k , v|
-    if v.each.values.include?(k)
-  end
-  
 end
